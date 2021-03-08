@@ -4,3 +4,6 @@ PORT=1234
 
 # return the ip address of the requesting station
 nc -klvp $PORT -c "grep -i connect my.ip|tail -1|cut -d' ' -f4|cut -d':' -f1" 2>/tmp/echo-ip
+
+
+# extra commentaar toegevoegd op host2
