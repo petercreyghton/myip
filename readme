@@ -1,15 +1,3 @@
-### nieuwe documentatie
+# MyIP
 
-maar nu gemaakt op host2 in branch host2
-
-<<<<<<< HEAD
-van host1
-
-nu zet ik extra text in host1, en ga op de master rechtstreeks iets aanpassen
-=======
-en vanaf nu leidend
-
-hier even wat extra text om de commit van host1 te blokkeren
-
-  
->>>>>>> c0aef1cdfaaeb6bc96241de02e55cfa94cdebc4b
+A simple oneliner for echoing the external IP address of the client. 
