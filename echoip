@@ -1,9 +1,7 @@
 #!/bin/bash
 
 PORT=1234
+IPFILE=${mktemp)
 
 # return the ip address of the requesting station
-nc -klvp $PORT -c "grep -i connect /tmp/my.ip|tail -1|cut -d' ' -f4|cut -d':' -f1" 2>/tmp/echo-ip
-
-
-# hier ook commentaar, nu van host1
+nc -klvp $PORT -c "grep -i connect $IPFILE|tail -1|cut -d' ' -f4|cut -d':' -f1" 2>$IPFILE
